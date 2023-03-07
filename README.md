@@ -1,54 +1,41 @@
-# Project Task Management App
+##  Project Management App
+This applications allows you to make request to a Ruby backend server and get response.
 
-This project management app lets you organize projects into boards and tasks.
+## Installation Usage
+To run the application locally, you need to have Node.js and npm installed on your machine. 
 
-## Front-end Project Task Management Interface
+ * Clone this repository and navigate to the project directory:
+ git@github.com:Khadaryussuf/project-management-app-frontend.git
+ * Navigate to the project directory
+ cd project-management-app-frontend
+ * Install dependencies
+ npm install
+ * Start the server
+ npm start
 
-You can use this app in conjunction with my project management API [see the repo](https://github.com/Khadaryussuf/project-management-app-frontend)
+ Open  http://localhost:3000/ in your web browser to access the application.
 
-## Technologies Used In This App
+ ## Depandancies
+  * React-JavaScript library for building user interfaces
 
-- JavaScript
-- React
-- Mui
-- Custom API Server
+## To run the application
+ * First start the backend application by navigating to its directory and run
 
-## How To Use
+   bundle exec rake server
 
-Install and run:
+ * Then the frontend application
+ 
+   npm start  
 
-```sh
-npm install
+## Live link for the application
 
-# start up your server
-# start up react
-npm start
 
-```
+ ## Author
+ Mohamed khadar
 
-## Features
+ ## License
+ MIT license
 
-### App
 
-- implement dark mode
-- customize theme with Mui
-- ability to add user login
-- ability to add in notifications
-- navigation shows all projects and favorite projects
-- responsive design
-
-### Projects
-
-- Create a project
-- Favor a project
-- Update a projects color and name
-- Delete a project
-- Search projects through search bar
-- View individul projects
-
-### Project Dashboard
-
-- View all project boards and tasks
-- Update/Delete project within dashboard
-
+ 
 
