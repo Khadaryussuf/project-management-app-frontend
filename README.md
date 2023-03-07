@@ -1,6 +1,7 @@
 ##  Project Management App
 This applications allows you to make request to a Ruby backend server and get response.
 
+
 ## Installation Usage
 To run the application locally, you need to have Node.js and npm installed on your machine. 
 
@@ -11,16 +12,16 @@ To run the application locally, you need to have Node.js and npm installed on yo
  * Install dependencies
  npm install
  * Start the server
- npm start
+npm start
 
- Open  http://localhost:3000/ in your web browser to access the application.
+ Open http://localhost:3000 in your web browser to access the application.
 
  ## Depandancies
   * React-JavaScript library for building user interfaces
 
 ## To run the application
- * First start the backend application by navigating to its directory and run
-
+ * First start the backend application by navigating to its directory
+ and run
    bundle exec rake server
 
  * Then the frontend application
@@ -29,9 +30,9 @@ To run the application locally, you need to have Node.js and npm installed on yo
 
 ## Live link for the application
 
-
+https://proj-man-app.vercel.app/
  ## Author
- Mohamed khadar
+ Mohamed khadar Yussuf
 
  ## License
  MIT license
